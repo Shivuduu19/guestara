@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+
+.parentElement {
+    @apply flex justify-center items-center
+}
+
+.innerElement {
+    @apply w-16 absolute top-2 h-16 bg-slate-500;
+}
+
+@tailwind utilities;
