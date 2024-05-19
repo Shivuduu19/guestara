@@ -27,6 +27,7 @@ const Resouce = ({ nofDays }) => {
         // console.log('Click position relative to overflow element: ', clickX, clickY);
 
         const eventElement = document.createElement('div')
+        eventElement.setAttribute("draggable", "true")
         eventElement.style.position = 'absolute';
         eventElement.style.left = `${innerDim.x + scrollX - 170}px`
         eventElement.classList.add("innerElement")

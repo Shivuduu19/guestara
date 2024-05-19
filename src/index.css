@@ -6,7 +6,7 @@
 }
 
 .innerElement {
-    @apply w-16 top-2 h-16 bg-slate-500;
+    @apply w-16 top-2 z-10 h-16 bg-slate-500;
 }
 
 @tailwind utilities;
